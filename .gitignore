@@ -1,2 +1,3 @@
-*.png
+/data/data_circle_3000
+/data/data_rectangle_3000
 /venv
