@@ -30,3 +30,23 @@ The ´diffusion_patterns.ipynb´notebook provides a setp by step walkthrough of 
 * Examples from the generated datasets
 * The Forward Diffusion proces
 * **Generated samples** from the trained diffusion model at the final timestep as well as some intermediate timesteps. While the generated images are simple and a bit blurry, the demonstrate the model's ability to learn and generate images similar to that of the treaining data.
+
+## How to Run
+1. **Clone the repository**
+    * `git clone https://github.com/maruand/Basic-Diffusion-Model-Demo`
+
+    * `cd DDPM-Simple-Patterns`
+2. **Create and activate a virtual environment:**
+    * `python3 -m venv venv`
+
+    * `source venv/bin/activate # On Windows: .\venv\Scripts\activate`
+3. **Install dependencies**
+    * `pip install torch torchvision torchaudio`
+    * `pip install numpy opencv-python matplotlib jupyter pillow`
+4. **Launch Jupyter Notebook**
+5. **Open** `diffusion_patterns.ipynb` and run all cells. The notebook will generated the dataset, train model and display results
+
+## Future Work
+* Try more complex synthetic datasets or small real-world datasets such as MNIST or FashionMNIST
+* Implement conditional generation
+* Explore different timestep embeddings
