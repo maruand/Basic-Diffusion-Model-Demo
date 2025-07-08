@@ -3,7 +3,7 @@
 ## Overview
 This repository contains a basic conceptual demonstration of a Denoising Diffusion Probabilistc Model (DDPM) implemented using PyTorch. The proroject focuses on generating two simple 2D geometric shapes (rectangles, circles)  from random noise, showcasing a foundational understanding of diffusion-based generative models. This work serves as a practical exploration of AI methods relevant to many mainstream generative models such as Stable diffusion and DALL-E
 
-![Visualization of the backwards process](backwards_process.png "Backwards process")
+![Visualization of the backwards process](images/backwards_process.png "Backwards process")
 ## Project Goals
 The primary objectives of this project were to:
 
